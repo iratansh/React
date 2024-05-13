@@ -2,6 +2,8 @@
   text-align: center;
   background-image: linear-gradient(white, black);
   min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
 }
 
 .Header {
@@ -52,7 +54,8 @@
 
 .resume,
 .contact,
-.reachOut {
+.reachOut,
+.emailButton {
   border: 2px solid black;
   background: none;
   padding: 1rem 2rem;
@@ -79,7 +82,8 @@
 
 .contact:hover,
 .resume:hover,
-.reachOut:hover {
+.reachOut:hover,
+.emailButton:hover {
   background-color: black;
 }
 
@@ -117,14 +121,14 @@
 }
 
 .box {
-  height: 100px;
+  height: 130px;
   width: 200px;
   padding: 1rem 2rem;
   border-radius: 50px;
 }
 
 .box2 {
-  height: 300px;
+  height: 400px;
   width: 400px;
   padding: 1rem 2rem;
   border-radius: 25px;
@@ -132,7 +136,7 @@
 
 .box3,
 .box4 {
-  height: 300px;
+  height: 350px;
   width: 400px;
   padding: 1rem 2rem;
   border-radius: 25px;
@@ -160,21 +164,29 @@
 .box6 {
   height: 350px;
   width: 100%;
-  border: none;
   margin-top: 100px;
   background: light black;
   border-top: 2px solid whitesmoke;
 }
 
 .box7 {
-  height: 50px;
+  height: 70px;
   width: 500px;
   border: 1px solid whitesmoke;
   margin-top: 20px;
   background: light black;
   text-align: left;
   padding-left: 10px;
+}
 
+.box8 {
+  height: 400px;
+  width: 500px;
+  border: 1px solid whitesmoke;
+  margin-top: 20px;
+  background: light black;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .repo {
@@ -200,6 +212,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
+  margin-top: 40px;
 }
 
 .container2 {
@@ -209,13 +222,22 @@
 .container3 {
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 200px;
 }
 
 .container4 {
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  height: 400px; 
+}
+
+.container-parent {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 600px;
 }
 
 .sinfoHeader,
@@ -252,6 +274,7 @@
 }
 
 .websiteName {
+  margin-top: 20px;
   font-family: "Verdana", sans-serif;
   color: whitesmoke;
   font-size: calc(15px + 2vmin);
@@ -285,7 +308,10 @@
 .contactButtons {
   cursor: pointer;
   background: transparent;
+  text-decoration: none;
   border: none;
+  color: orange;
+  font-size: 12px;
 }
 
 a {
@@ -296,3 +322,45 @@ a {
 .message {
   border: 1px solid whitesmoke;
 }
+
+.inputs {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px; 
+  margin-top: 30px;
+  background: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  letter-spacing: 0.5px;
+  font-family: "Verdana", sans-serif;
+  font-size: 14px; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.emailButton {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.form {
+  width: 100%; 
+  max-width: 400px; 
+  padding: 20px; 
+  border: 2px solid whitesmoke; 
+  border-radius: 10px;
+  box-sizing: border-box; 
+  max-height: 500px;
+  margin-top: 120px;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+  width: 100%;
+}
+
