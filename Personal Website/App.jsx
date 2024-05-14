@@ -6,6 +6,7 @@ import AboutMe from "./aboutMe";
 import Portfolio from "./portfolio";
 import ContactMe from "./contactMe";
 import BottomBox from "./bottomBox";
+import CompetitionsAndSkills from "./competitions";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <NavigationBar></NavigationBar>
       <Home></Home>
       <AboutMe></AboutMe>
+      <CompetitionsAndSkills></CompetitionsAndSkills>
       <Portfolio></Portfolio>
       <ContactMe></ContactMe>
       <BottomBox></BottomBox>
@@ -21,4 +23,3 @@ function App() {
 }
 
 export default App;
-
