@@ -1,0 +1,31 @@
+.compHeader,
+.comp {
+  font-family: "Verdana", sans-serif;
+  display: center flex;
+}
+
+.compHeader {
+  font-size: 18px;
+  color: orange;
+}
+
+.comp {
+  font-size: 13px;
+  color: whitesmoke;
+  letter-spacing: 0.5px;
+}
+
+.competitions1 {
+  margin-top: 600px;
+}
+
+.headerForCompetitions {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-size: calc(40px + 2vmin);
+}
+
+.skills {
+    color: whitesmoke;
+    margin-top: 50px;
+  }
