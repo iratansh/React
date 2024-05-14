@@ -7,7 +7,8 @@ import { Icon } from "react-icons-kit";
 import { home } from "react-icons-kit/icomoon/home";
 import { ic_person } from "react-icons-kit/md/ic_person";
 import { MdDescription } from "react-icons/md";
-import { FaEnvelope } from "react-icons/fa"; 
+import { FaEnvelope } from "react-icons/fa";
+import { FaTrophy } from "react-icons/fa";
 
 export default function NavigationBar() {
   return (
@@ -40,6 +41,9 @@ export default function NavigationBar() {
             <Nav.Link href="#about">
               <Icon icon={ic_person} size={24} />
             </Nav.Link>
+            <Nav.Link href="#competitions">
+              <FaTrophy size={24} />
+            </Nav.Link>{" "}
             <Nav.Link href="#portfolio">
               <MdDescription size={24} />
             </Nav.Link>{" "}
