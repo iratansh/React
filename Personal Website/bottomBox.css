@@ -1,0 +1,27 @@
+.end {
+    margin-top: 200px;
+}
+
+.box6 {
+  height: 350px;
+  width: 100%;
+  margin-top: 100px;
+  background: light black;
+  border-top: 2px solid whitesmoke;
+}
+
+.websiteName {
+  margin-top: 20px;
+  font-family: "Verdana", sans-serif;
+  color: whitesmoke;
+  font-size: calc(15px + 2vmin);
+}
+
+.bottomContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+  width: 100%;
+}

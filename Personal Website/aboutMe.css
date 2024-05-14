@@ -1,0 +1,74 @@
+.resume,
+.contact,
+.reachOut,
+.emailButton {
+  border: 2px solid black;
+  background: none;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  font-family: "Verdana", sans-serif;
+  vertical-align: middle;
+  margin-right: 60px;
+  cursor: pointer;
+  color: red;
+}
+
+.resume {
+  margin-right: 0;
+}
+
+.reachOut {
+  margin-top: 25px;
+  margin-left: 45px;
+  border: 2px solid whitesmoke;
+  font-size: 1rem;
+}
+
+.contact:hover,
+.resume:hover,
+.reachOut:hover,
+.emailButton:hover {
+  background-color: black;
+}
+
+.reachOut:hover {
+  border: none;
+}
+
+.aboutMe {
+  margin-top: 600px;
+  font-family: "Verdana", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(40px + 2vmin);
+  color: black;
+  position: relative;
+}
+
+.box,
+.box2,
+.box3,
+.box4 {
+  background-color: grey;
+  opacity: 0.8;
+  position: relative;
+}
+
+.box:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover {
+  border: 2px solid whitesmoke;
+  background: none;
+}
+
+.box {
+  height: 130px;
+  width: 200px;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
