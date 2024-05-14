@@ -9,8 +9,8 @@ export default function ContactMe() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_6meyomh", "template_d581cmw", form.current, {
-        publicKey: "BNCxEmdpAWd2bBgXW",
+      .sendForm("----", "----", form.current, {
+        publicKey: "----",
       })
       .then(
         () => {
